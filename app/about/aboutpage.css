@@ -1,0 +1,13 @@
+.title {
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease; /* Smooth transition for height */
+  }
+  
+  .contentActive {
+    max-height: 500px; /* Set to a value larger than the expected height of the content */
+  }
